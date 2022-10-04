@@ -1,6 +1,6 @@
 // requires
 var db = require('./db-mock.json')
-const fastify = require('fastify')({ logger: true })
+const fastify = require('fastify')()
 const fs = require('fs');
 
 // Utility methods
