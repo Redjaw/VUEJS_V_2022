@@ -1,0 +1,123 @@
+{
+  "pizze": [
+    {
+      "name": "margherita",
+      "label":"margherita",
+      "price": 5,
+      "ingredients": [
+        "mozzarella",
+        "pomodoro",
+        "basilico"
+      ],
+      "comments": [
+        {
+          "date": "16 Sep 2021 22:01:00 GMT",
+          "author": "mirko.dallemarche@test.com",
+          "rating": 4,
+          "comment" : "pizza molto semplice, ma buona!"
+        },
+        {
+          "date": "12 Sep 2021 18:26:00 GMT",
+          "author": "marcodemarchi@email.com",
+          "rating": 5,
+          "comment" : "Alla fine è la pizza migliore di tutte"
+        }
+      ]
+    },
+    {
+      "name": "diavola",
+      "label": "diavola",
+      "price": 6,
+      "ingredients": [
+        "mozzarella",
+        "pomodoro",
+        "salamino piccante"
+      ],
+      "comments": [
+        {
+          "date": "16 Aug 2021 15:12:00 GMT",
+          "author": "mirko.dallemarche@test.com",
+          "rating": 3,
+          "comment" : "Molto piccante ma l'impasto era così così..."
+        }
+      ]
+    },
+    {
+      "name": "quattro formaggi",
+      "label": "quattro-formaggi",
+      "price": 8,
+      "ingredients": [
+        "mozzarella",
+        "pomodoro",
+        "gorgonzola",
+        "fontina",
+        "stracchino"
+      ],
+      "comments": [
+        {
+          "date": "15 Sep 2021 23:21:00 GMT",
+          "author": "mirko.dallemarche@test.com",
+          "rating": 1,
+          "comment" : "Non avrei dovuto prenderla, mi ha fatto scoprire che sono intollerante al lattosio!"
+        },
+        {
+          "date": "12 Sep 2021 21:21:00 GMT",
+          "author": "andreaebbasta@test.com",
+          "rating": 5,
+          "comment" : "Buona... cremosa..."
+        }
+      ]
+    },
+    {
+      "name": "funghi",
+      "label": "funghi",
+      "price": 7,
+      "ingredients": [
+        "mozzarella",
+        "pomodoro",
+        "funghi"
+      ],
+      "comments": [
+        {
+          "date": "12 Sep 2021 23:21:00 GMT",
+          "author": "marco.demarchi@email.com",
+          "rating": 2,
+          "comment" : "Niente di che..."
+        }
+      ]
+    },
+    {
+      "name": "quattro stagioni",
+      "label": "quattro-stagioni",
+      "price": 8,
+      "ingredients": [
+        "mozzarella",
+        "pomodoro",
+        "funghi",
+        "prosciutto cotto",
+        "carciofini",
+        "olive"
+      ],
+      "comments": [
+        {
+          "date": "01 Oct 2021 14:21:00 GMT",
+          "author": "marco.demarchi@email.com",
+          "rating": 4,
+          "comment" : "Molto ricca e buona, complimenti"
+        },
+        {
+          "date": "12 Sep 2021 21:01:00 GMT",
+          "author": "mirko.dallemarche@test.com",
+          "rating": 5,
+          "comment" : "Il mio tessorooo..."
+        },
+        {
+          "date": "15 Sep 2021 21:01:00 GMT",
+          "author": "andreaebbasta@test.com",
+          "rating": 3,
+          "comment" : "L'avrei preferita con più olive..."
+        }
+      ]
+    }
+  ]
+}
