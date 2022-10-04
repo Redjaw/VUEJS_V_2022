@@ -1,0 +1,110 @@
+{
+  "books": [
+    {"name":"La scienza delle verdure",
+      "author":"Dario Bressanini",
+      "tags": ["cucina","scienza"],
+      "isin":"8858025199",
+      "plot": "Come friggere al meglio la melanzana, che a causa della sua struttura spugnosa è forse il vegetale più complicato per questa tecnica di cottura? Come conservare al meglio le verdure? Come preparare il pesto senza che il basilico annerisca? Come mai i peperoni hanno colori diversi? È vero che togliere il germoglio all’aglio aiuta la digeribilità? Il libro fornisce le risposte a queste e altre domande, contiene inoltre capitoli dedicati a elettrodomestici ormai onnipresenti nelle nostre cucine: frigorifero, freezer e microonde. Un linguaggio semplice, tanti esperimenti illustrati, disegni esplicativi, tabelle, ricette spiegate step by step presentano le tecniche fondamentali per sfruttare le verdure in maniera ottimale, sfatare falsi miti e ottenere ottimi piatti.",
+      "history": [
+        {
+          "dateReturn": "6 Oct 2020",
+          "user": "Davide Vernassa",
+          "dateOut": "17 Jan 2020"
+        },
+        {
+          "dateReturn": "15 Jan 2020",
+          "user": "Mirko MalleMarche",
+          "dateOut": "23 Dec 2019"
+        }],
+        "comments": [{
+          "author": "Zero",
+          "text": "Non voglio fare spoiler su ciò che è contenuto in questo libro, né a parole né con immagini, ma posso dire che è davvero interessante e a tratti anche divertente. E' denso di spiegazioni ed impaginato quasi come un libro di testo, ma non è mai pesante (e poi se qualcosa proprio non vi interessa, basta andare oltre). Si spazia dalla ricetta della zuppa di cipolle all'azione dell'enzima alliinasi, a come ridurre l'acidità dei pomodori. Capire le cose per me è di primaria importanza (e ciò viene primariamente dal fatto di aver passato diversi anni all'interno del corso di laurea in medicina e chirurgia, dal quale però alla fine sono spontaneamente fuggita). Nella cucina però devo ammettere che sono sempre andata un po' a naso. Questo libro mi aiuterà a capire perchè determinate cose accadono."
+        }]
+    },
+    {"name":"Siddharta",
+      "author":"Herman Hesse",
+      "tags": ["classico", "narrazione", "filosofia", "religione"],
+      "isin":"884590184X",
+      "plot": "Chi è Siddharta? È uno che cerca, e cerca soprattutto di vivere intera la propria vita. Passa di esperienza in esperienza, dal misticismo alla sensualità, dalla meditazione filosofica alla vita degli affari, e non si ferma presso nessun maestro, non considera definitiva nessuna acquisizione, perché ciò che va cercato è il tutto, il misterioso tutto che si veste di mille volti cangianti. E alla fine quel tutto, la ruota delle apparenze, rifluirà dietro il perfetto sorriso di Siddharta, che ripete il \"costante, tranquillo, fine, impenetrabile, forse benigno, forse schernevole, saggio, multirugoso sorriso di Gotama, il Buddha, quale egli stesso l'aveva visto centinaia di volte con venerazione\". Siddharta è senz'altro l'opera di Hesse più universalmente nota. Questo breve romanzo di ambiente indiano, pubblicato per la prima volta nel 1922, ha avuto infatti in questi ultimi anni una strepitosa fortuna. Prima in America, poi in ogni parte del mondo, i giovani lo hanno riscoperto come un loro testo, dove non trovavano solo un grande scrittore moderno ma un sottile e delicato saggio, capace di dare, attraverso questa parabola romanzesca, un insegnamento sulla vita che evidentemente i suoi lettori non incontravano altrove.",
+      "history": [
+        {
+          "dateReturn": "12 Jul 2020",
+          "user": "Marco DeMarchi",
+          "dateOut": "6 Mar 2020"
+        },
+        {
+          "dateReturn": "16 Sep 2020",
+          "user": "Mirko MalleMarche",
+          "dateOut": "10 Ago 2020"
+        }],
+        "comments": [{
+          "author": "Lara",
+          "text": "Un libro che si fa amare se letto nel momento giusto e con i giusti tempi. Ho atteso anni perche' non sentivo attrazione per questo genere di lettura ma e' arrivato il momento in cui ne ho sentito proprio l'esigenza. I personaggi vi catapulteranno in questo lungo viaggio verso la scoperta dell' \"io\" . Lo consiglio fortemente a tutti quelli che stanno maturando una sorta di tranquillita' interiore e abbia la giusta pazienza per assaporare lentamente ogni parola."
+        },
+        {
+          "author": "Luigi",
+          "text": "Un libro meraviglioso e destabilizzante. Un libro che scuote l'animo e apre la mente.Tra un anno mi sono promesso di rileggerlo. L'ho appena terminato e sono in fase di metabolizzazione e riflessione.Come ho fatto a non leggerlo prima. Forse e' arrivato al momento giusto."
+        }]
+    },
+    {"name":"Storia di una gabbianella e del gatto che le insegnò a volare",
+      "author":"Luis Sepúlveda",
+      "tags": ["classico", "narrazione", "bambini"],
+      "isin":"8893810735",
+      "plot": "Prometti che non mangerai l'uovo» stridette aprendo gli occhi. «Prometto che non mi mangerò l'uovo» ripetè Zorba. «Promettimi che ne avrai cura finché non sarà nato il piccolo» stridette sollevando il capo. «Prometto che avrò cura dell'uovo finché non sarà nato il piccolo». «E prometti che gli insegnerai a volare» stridette guardando fisso negli occhi il gatto. Allora Zorba si rese conto che quella sfortunata gabbiana non solo delirava, ma era completamente pazza. «Prometto che gli insegnerò a volare. E ora riposa, io vado in cerca di aiuto» miagolò Zorba balzando direttamente sul tetto. «Sepulveda costruisce un mondo dove aiutare chi è in difficoltà è il valore supremo, dove - lezione non trascurabile -riesce a volare 'soltanto chi osa farlo'",
+      "history": [
+        {
+          "dateReturn": "2 Jul 2020",
+          "user": "Marco DeMarchi",
+          "dateOut": "6 Mar 2020"
+        },
+        {
+          "dateReturn": "16 Sep 2020",
+          "user": "Mirko MalleMarche",
+          "dateOut": "10 Ago 2020"
+        },
+        {
+          "dateReturn": "14 Feb 2019",
+          "user": "Mirko MalleMarche",
+          "dateOut": "28 Jan 2019"
+        }],
+        "comments": [{
+          "author": "Kà",
+          "text": "Avevo pensato che fossi impazzita a scegliere un libro per bambini. Ma avevo letto alcuni commenti che è un libro non solo per i bimbi ma anche per gli adulti. Mi ha lasciato cosi emozionata un racconto semplice ma che pieno di valore. Noi non smettiamo mai di crescere, imparare e migliorarci in tutti gli aspetti della vita. Non sono mai un’amante degli animali ma ioli rispetto(anche se ultimamente mi sto affezionando ad una gatta- ed e’ per questo che questo libro mi ha incuriosito.) Questo libro è un gioiello. Consigliatissimo. Ed è vero, volare è per chi osa farlo... davvero."
+        },
+        {
+          "author": "Alessandra",
+          "text": "Libro a mio avviso bellissimo e con un profondo significato. Lo sta leggendo il mio bimbo di 7 anni in questi giorni in cui siamo a casa per l’emergenza sanitaria. Quando lo avrà finito faremo insieme delle riflessioni per cogliere i messaggi del libro."
+        },{
+          "author": "Francesco",
+          "text": "Romanzo bellissimo, educativo e molto scorrevole nella lettura, i bambini adorano leggere i lavori di Sepulveda. Trama molto interessante, dalla quale è stato poi tratto il film d’animazione la gabbianella è il gatto. Ogni bimbo dovrebbe crescere leggendo i libri di Sepulveda."
+        }]
+    },{"name":"Harry Potter e la Pietra Filosofale",
+      "author":"J.K. Rowling",
+      "tags": ["avventura", "narrazione", "bambini"],
+      "isin":"8893814501",
+      "plot": "Harry Potter è un predestinato: ha una cicatrice a forma di saetta sulla fronte e provoca strani fenomeni, come quello di farsi ricrescere in una notte i capelli inesorabilmente tagliati dai perfidi zii. Ma solo in occasione del suo undicesimo compleanno gli si rivelano la sua natura e il suo destino, e il mondo misterioso cui di diritto appartiene. Un mondo dove regna la magia; un universo popolato da gufi portalettere, scope volanti, caramelle al gusto di cavolini di Bruxelles, ritratti che scappano... Età di lettura: da 10 anni.",
+      "history": [
+        {
+          "dateReturn": "16 Jun 2020",
+          "user": "Roberto DeRobertis",
+          "dateOut": "10 Jan 2020"
+        },
+        {
+          "dateReturn": "14 Feb 2019",
+          "user": "Mirko MalleMarche",
+          "dateOut": "28 Jan 2019"
+        }],
+        "comments": [{
+          "author": "Marco",
+          "text": "Che dire? Chi è appassionato di Harry Potter sa di cosa stiamo parlando, e non credo che ci sia bisogno di commenti.Per chi invece non conosce Harry, cosa aspettate ad appassionarvi?"
+        },
+        {
+          "author": "Lover",
+          "text": "Dopo anni eccomi a voler leggere i libri di una meravigliosa saga. Metto tre stelle solo perché questa è una versione dove vengono portate delle modifiche non poco importanti. Il cambio di un nome di una delle quattro Casate ( nome terribile, difficile da mandare giù dopo esser cresciuti sentendo un altro nome ) e il mantenimento dei cognomi originali in inglese. Credo siano delle modifiche che contano. Sinceramente, a saperlo prima avrei comprato un’altra versione del libro ma sono solo gusti!"
+        },{
+          "author": "Francesca",
+          "text": "Bellissimo classico,ormai, della letteratura per ragazzi"
+        }]
+    }
+  ]
+}
