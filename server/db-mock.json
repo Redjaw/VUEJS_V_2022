@@ -1,0 +1,62 @@
+{
+  "stocks": {
+    "acme": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      20,
+      null,
+      "12",
+      "15",
+      "56",
+      "12"
+    ],
+    "global": [
+      5,
+      5,
+      6,
+      4,
+      5,
+      10,
+      15,
+      null,
+      "12",
+      "9",
+      "34",
+      "32"
+    ]
+  },
+  "investors": [
+    {
+      "name": "davide",
+      "investments": 20
+    },
+    {
+      "name": "marco",
+      "investments": 12
+    },
+    {
+      "name": "luigi",
+      "investments": 4
+    },
+    {
+      "name": "andrea",
+      "investments": 1
+    },
+    {
+      "name": "antonio",
+      "investments": 56
+    },
+    {
+      "name": "riccardo",
+      "investments": 24
+    },
+    {
+      "name": "lucio",
+      "investments": 10
+    }
+  ]
+}
