@@ -1,0 +1,46 @@
+{
+  "items": [
+    { "id":"1234",
+      "name":"Monitor Gaming 28\"",
+      "description":"Gaming Monitor, 28\", Flat 3840x2160 (UHD 4K), Pannello IPS,16:9,HDR 400, QLED Refresh Rate 144 Hz, Response Time 1 ms, FreeSync Premium Pro, G-Sync 2 HDMI, USB 3, 1 Display Port, Ingresso Audio HAS, Pivot PIP, Flicker Free, Eye Saver Mode, Eco Saving Plus, Auto Source Switch +",
+      "price": 699
+    },
+    {
+      "id":"1235",
+      "name":"Aspirapolvere senza fili",
+      "description":"Aspirapolvere Senza Fili Ricaricabile, Senza Sacco, Potenza 200W, Durata Max 60 Minuti, Spazzola Morbida Parquet e Spazzola Tappeti",
+      "price": 499
+    },
+    {
+      "id":"1236",
+      "name":"Asciugatrice",
+      "description":"Asciugatrice a condensazione con pompa di calore DV70TA000TE/ET, con Porta Reversibile Prevenzione Pieghe, Tecnologia Optimal Dry, Filtro 2 in 1, Bianco, Oblò Bianco",
+      "price": 388
+    },
+    {
+      "id":"1237",
+      "name":"Forno microonde grill combinato",
+      "description":"Forno Microonde Grill Combinato, 32 Litri, Hotblast, 1400 W, Grill XXL, con Piatto Doratore, Argento Inox",
+      "price": 189
+    },
+    {
+      "id":"1238",
+      "name":"Spazzolino elettrico ricaricabile",
+      "description":"Spazzolino Elettrico Ricaricabile, 1 Spazzolino con Sensore di Pressione dello Spazzolamento Visibile, 1 Testina, 1 Custodia da Viaggio",
+      "price": 39
+    },
+    {
+      "id":"1239",
+      "name":"Tostapane",
+      "description":"Tostapane a 2 fette, 7 impostazioni di tostatura, Funzioni di sgelare, riscaldamento e cancellazione; 750W, Nero, BPA Free",
+      "price": 21
+    },
+    {
+      "id":"1205",
+      "name":"Bilancia digitale",
+      "description":"Bilancia digitale da cucina, in acciaio inossidabile, pesa in grammi e once, 5 kg / 1 g , garanzia 15 anni",
+      "price": 12
+    }
+  ]
+}
+
