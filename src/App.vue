@@ -18,9 +18,9 @@
 </template>
 
 <script>
-import ListaOggetti from '@/components/ListaOggetti'
-import DettaglioOggetto from '@/components/DettaglioOggetto'
-import Carrello from '@/components/Carrello'
+import ListaOggetti from '@/components/ListaOggetti.vue'
+import DettaglioOggetto from '@/components/DettaglioOggetto.vue'
+import Carrello from '@/components/Carrello.vue'
 export default {
   name: 'App',
   components: {
