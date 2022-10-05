@@ -1,0 +1,101 @@
+{
+    "album": [
+        {
+            "name": "nevermind",
+            "author": {
+                "name": "nirvana",
+                "band": {
+                    "guitar":"Kurt Cobain",
+                    "bass":"Krist Novoselic",
+                    "drums": "Dave Grohl"
+                },
+                "link":"https://it.wikipedia.org/wiki/Nirvana_(gruppo_musicale)"
+            },
+            "year":"1991",
+            "duration":"59:23",
+            "cover":"nevermind.png"
+        },
+        {
+            "name": "the dark side of the moon",
+            "author": {
+                "name": "pink floyd",
+                "band": {
+                    "guitar":"David Gilmour",
+                    "guitar2":"Syd Barrett",
+                    "bass":"Roger Waters",
+                    "drums": "Nick Mason",
+                    "keyboards":"Richard Wright"
+                }
+            },
+            "year":1973,
+            "duration":"59:23",
+            "cover":"dark-side-of-the-moon.png"
+        },
+        {
+            "name": "a night at the opera",
+            "author": {
+                "name": "queen",
+                "band": {
+                    "voice":"Freddie Mercury",
+                    "guitar":"Brian May",
+                    "bass":"John Deacon",
+                    "drums": "Roger Taylor"
+                },
+                "link":"https://it.wikipedia.org/wiki/Queen"
+            },
+            "year":1975,
+            "duration":2588000,
+            "cover":"a-night-at-the-opera.png",
+            "link":"https://it.wikipedia.org/wiki/A_Night_at_the_Opera_(Queen)"
+        },
+        {
+            "name": "never mind the bollocks",
+            "author": {
+                "name": "sex pistols"
+            },
+            "year":1977,
+            "duration":"38:50",
+            "cover":"never-mind-the-bollocks.png",
+            "link":"https://it.wikipedia.org/wiki/Never_Mind_the_Bollocks,_Here%27s_the_Sex_Pistols"
+        },
+        {
+            "name": "ramones",
+            "author": {
+                "name": "ramones",
+                "link": "https://it.wikipedia.org/wiki/Ramones"
+            },
+            "year":1976,
+            "duration":1733000,
+            "cover":"ramones.png",
+            "link":"https://it.wikipedia.org/wiki/Ramones_(album)"
+        },
+        {
+            "name": "sgt. pepper's lonely hearts club band",
+            "author": {
+                "name": "the beatles",
+                "band": {
+                    "voice":"John Lennon",
+                    "guitar": "George Harrison" ,
+                    "bass": "Paul McCartney",
+                    "drums": "Ringo Starr"
+                },
+                "link": "https://it.wikipedia.org/wiki/The_Beatles"
+            },
+            "year":1967,
+            "duration":"39:43",
+            "cover":"sergeant-pepper.png",
+            "link":"https://it.wikipedia.org/wiki/Sgt._Pepper%27s_Lonely_Hearts_Club_Band"
+        },
+        {
+            "name": "rumours",
+            "author": {
+                "name": "fleetwood mac",
+                "link": "https://it.wikipedia.org/wiki/Fleetwood_Mac"
+            },
+            "year":"1977",
+            "duration":"39:41",
+            "cover":"rumours.png",
+            "link":"https://it.wikipedia.org/wiki/Rumours"
+        }
+    ]
+}
