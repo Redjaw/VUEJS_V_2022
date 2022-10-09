@@ -1,62 +1,48 @@
 {
-  "stocks": {
-    "acme": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      20,
-      null,
-      "12",
-      "15",
-      "56",
-      "12"
-    ],
-    "global": [
-      5,
-      5,
-      6,
-      4,
-      5,
-      10,
-      15,
-      null,
-      "12",
-      "9",
-      "34",
-      "32"
+    "characters": [
+        {
+            "id": "f58c4c55-6ba1-40f8-a805-0b47236cbdf2",
+            "name": "redjaw",
+            "class": "rogue",
+            "attributes": {
+                "strenght": 12,
+                "dexterity": 16,
+                "constitution": 10,
+                "intelligence": 14,
+                "wisdom": 8,
+                "charisma": 14
+            },
+            "level": 1,
+            "xp": 0,
+            "log": [
+                {
+                    "datetime": "2022-04-23T18:25:43.511Z",
+                    "action": "character created",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": "a416beda-0ab7-4dd3-b459-8c54e1af1f2f",
+            "name": "arion degloris",
+            "class": "wizard",
+            "attributes": {
+                "strenght": 8,
+                "dexterity": 12,
+                "constitution": 8,
+                "intelligence": 18,
+                "wisdom": 14,
+                "charisma": 10
+            },
+            "level": 1,
+            "xp": 0,
+            "log": [
+                {
+                    "datetime": "2022-05-23T18:25:43.511Z",
+                    "action": "character created",
+                    "value": ""
+                }
+            ]
+        }
     ]
-  },
-  "investors": [
-    {
-      "name": "davide",
-      "investments": 20
-    },
-    {
-      "name": "marco",
-      "investments": 12
-    },
-    {
-      "name": "luigi",
-      "investments": 4
-    },
-    {
-      "name": "andrea",
-      "investments": 1
-    },
-    {
-      "name": "antonio",
-      "investments": 56
-    },
-    {
-      "name": "riccardo",
-      "investments": 24
-    },
-    {
-      "name": "lucio",
-      "investments": 10
-    }
-  ]
 }

@@ -17,44 +17,27 @@ function writeDb(){
 }
 
 // Routes
-fastify.get('/api/stocks', async (request, reply) => {
-  return db.stocks
+
+fastify.get('/api/heroes/:id', async (request, reply) => {
+	if (request.params?.id) {
+		console.log(request.params.id)
+		return db.characters.filter(item => item.id === request.params.id)
+	}else return db.characters
 })
 
-fastify.post('/api/stocks', async (request, reply) => {
-	db.stocks.acme.push(request.body.acme)
-	db.stocks.global.push(request.body.global)
-	writeDb().then((response)=> reply.code(201).send())
-})
-
-fastify.get('/api/investors:name', async (request, reply) => {
-	if (request.query.name) {
-		if (request.query.name === 'test') reply.code(500).send('error')
-		else return db.investors.filter(item => item.name === request.query.name)
-	}
-	else return db.investors
-})
-
-fastify.get('/api/auth/stocks', async (request, reply) => {
-	if (request.headers && request.headers.authorization && request.headers.authorization === 'Bearer xxxxx.yyyyy.zzzzz') return db.stocks
-	else reply.code(401).send('error')
-})
-
-fastify.post('/api/auth/stocks', async (request, reply) => {
-	if (request.headers && request.headers.authorization && request.headers.authorization === 'Bearer xxxxx.yyyyy.zzzzz') {
-		db.stocks.acme.push(request.body.acme)
-		db.stocks.global.push(request.body.global)
+fastify.put('/api/heroes/:id/xp', async (request, reply) => {
+	try {
+		let character = db.characters.filter(item => item.id === request.params.id)[0]
+		if (request.body) {
+			if(request.body.xp) character.xp += request.body.xp
+			if(request.body.action) character.log.push(request.body.action)
+		}
+		
 		writeDb().then((response)=> reply.code(201).send())
-	} else reply.code(401).send('error')
+	} catch (e) {
+		reply.code(500).send('error')
+	}
 })
-
-fastify.get('/api/auth/investors:name', async (request, reply) => {
-	if (request.headers && request.headers.authorization && request.headers.authorization === 'Bearer xxxxx.yyyyy.zzzzz') {
-		if (request.query.name) return db.investors.filter(item => item.name === request.query.name)
-		else return db.investors
-	} else reply.code(401).send('error')
-})
-
 
 // Server startup
 fastify.listen({ port: 3000 })
