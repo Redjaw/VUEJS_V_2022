@@ -1,6 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import PrimeVue from 'primevue/config'
+import 'primevue/resources/themes/saga-blue/theme.css'       //theme
+import 'primevue/resources/primevue.min.css'    //core css
+import 'primeicons/primeicons.css'  
 
 import './assets/bootstrap.min.css'
 
-createApp(App).mount('#app')
+createApp(App).use(PrimeVue).mount('#app')
