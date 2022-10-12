@@ -1,15 +1,19 @@
 {
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
-
-  "references": [
-    {
-      "path": "./tsconfig.config.json"
-    }
-  ]
+    "compilerOptions": {
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "target": "es6",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/**.ts",
+        "src/**/*.vue"
+, "src/main.js", "src/main.js"    ]
 }

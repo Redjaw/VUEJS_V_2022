@@ -1,19 +1,7 @@
 <template>
-	<div class="coverContainer">
-		<div class="cover before">
-			<img src="@/assets/album/nevermind.png" /> 
-		</div>
-		<div class="cover before">
-			<img src="@/assets/album/dark-side-of-the-moon.png" /> 
-		</div>
-		<div class="cover selected ">
-			<img src="@/assets/album/a-night-at-the-opera.png" /> 
-		</div>
-		<div class="cover after">
-			<img src="@/assets/album/never-mind-the-bollocks.png" /> 
-		</div>
-		<div class="cover after">
-			<img src="@/assets/album/ramones.png" /> 
+	<div class="coverContainer" >
+		<div class="cover before" :class="{'selected':false}" v-for="album in albums" :key="album.name" @click="selezionaAlbum(album)">
+			<img :src="`src/assets/album/${album.cover}`" />
 		</div>
 	</div>
 	
@@ -21,8 +9,26 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import album from '../assets/album.json'
+import { IAlbum } from '../components/Album'
+
 export default defineComponent({
-  name: "album-list"
+	name: "album-list",
+	emits: {
+		albumSelected( { album: IAlbum }) {
+			return album
+		}
+	},
+	data() {
+		return {
+			albums: album.album as Array<IAlbum>
+		}
+	},
+	methods: {
+		selezionaAlbum(album:IAlbum) :void {
+			this.$emit('albumSelected',album)
+		}
+	}
 });
 </script>
 
