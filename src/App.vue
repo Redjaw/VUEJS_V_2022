@@ -2,10 +2,10 @@
   <div class="container d-flex flex-column">
     <div class="row flex-fill">
       <div class="col-3">
-        <ListaOggetti ></ListaOggetti>
+        <ListaOggetti @itemSelected="itemSelected"></ListaOggetti>
       </div>
       <div class="col-9">
-        <DettaglioOggetto></DettaglioOggetto>
+        <DettaglioOggetto :selectedItem="selectedItem"></DettaglioOggetto>
       </div>
     </div>
     <div class="row">
@@ -27,6 +27,16 @@ export default {
     ListaOggetti,
     DettaglioOggetto,
     Carrello
+  },
+  data() {
+    return {
+      selectedItem: {}
+    }
+  },
+  methods: {
+    itemSelected(oggetto) {
+      this.selectedItem = oggetto
+    }
   }
 }
 </script>
