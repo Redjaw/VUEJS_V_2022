@@ -1,8 +1,13 @@
 <template>
   <div class="p-grid p-m-0">
     <div class="p-col-4" style="position: relative">
+      <select v-model="$i18n.locale" >
+        <option value="it-IT">{{$t('italian')}}</option>
+        <option value="en-US">{{$t('american')}}</option>
+      </select>
       <Button icon="pi pi-plus" class="p-button-rounded p-button-secondary" @click="newCorsa"
-        style="position: absolute; right: 10px;z-index: 1000" />
+        style="position: absolute; right: 10px;z-index: 1000" :title="$t('tooltip')"/>
+        <h1>{{$t('listRun')}}</h1>
       <List @cambioCorsa="cambiaCorsaSelezionata" />
     </div>
     <div class="p-col">

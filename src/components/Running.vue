@@ -2,11 +2,12 @@
   <span>
     <Card style="width: 25em" v-if="corsaSelezionata && corsaSelezionata.total">
       <template #header>
+        <h2>{{$t('selectedRun')}}</h2>
         <img v-if="corsaSelezionata && corsaSelezionata.map" :src="returnMap(corsaSelezionata.map)"
           style="height: 15rem" />
       </template>
       <template #title v-if="corsaSelezionata && corsaSelezionata.date">
-        {{corsaSelezionata.date}}
+        {{$d(new Date(corsaSelezionata.date), 'short')}}
       </template>
       <template #content v-if="corsaSelezionata && corsaSelezionata.total">
         {{corsaSelezionata.total}}

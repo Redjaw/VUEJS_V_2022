@@ -1,7 +1,7 @@
 <template>
   <Listbox v-model="corsaSelezionata" :options="corse" @change="selectCorse" filterPlaceholder="Search">
     <template #option="slotProps">
-      <div>{{slotProps.option.date}}</div>
+      <div>{{$d(new Date(slotProps.option.date), 'long')}}</div>
     </template>
   </Listbox>
 </template>

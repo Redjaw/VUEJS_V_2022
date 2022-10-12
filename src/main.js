@@ -7,4 +7,9 @@ import 'primeicons/primeicons.css'
 
 import './assets/bootstrap.min.css'
 
-createApp(App).use(PrimeVue).mount('#app')
+import i18n from './App.i18n'
+
+createApp(App)
+    .use(i18n)
+    .use(PrimeVue)
+    .mount('#app')
