@@ -19,6 +19,9 @@ export default ({
 		selezionaOggetto(oggetto) {
 			this.$emit('itemSelected',oggetto)
 		}
+	},
+	computed: {
+		
 	}
 });
 </script>

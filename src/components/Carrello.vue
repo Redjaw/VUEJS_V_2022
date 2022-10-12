@@ -3,12 +3,13 @@
 </template>
 
 <script>
-import { mapState, mapGetters} from 'vuex'
+import { mapState } from 'pinia'
+import { useCounterStore } from '../pinia.store'
+//import { mapState, mapGetters} from 'vuex'
 export default ({
   name: "Carrello",
   computed: {
-    ...mapState(['costoTotale']),
-    ...mapGetters(['totaleOggetti'])
+    ...mapState(useCounterStore, ['totaleOggetti','costoTotale'])
   }
 });
 </script>

@@ -4,7 +4,7 @@
 
 In questa esercitazione dovrete creare uno shop online composto dalle seguenti sezioni:
 
--   Un lista di oggetti acquistabili inseribili nel carrello. Gli oggetti avranno una breve descrizione e un bottone per aggiungerli o toglierli (se già presenti) dal carrello.
+-   Una lista di oggetti acquistabili inseribili nel carrello. Gli oggetti avranno una breve descrizione e un bottone per aggiungerli o toglierli (se già presenti) dal carrello.
 -   Un dettaglio dell'oggetto selezionato.
 -   Un carrello con lista degli oggetti inseriti ed il costo totale.
 

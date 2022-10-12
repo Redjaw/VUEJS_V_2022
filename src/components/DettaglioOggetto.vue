@@ -1,20 +1,20 @@
 <template>
 	<div>{{selectedItem}}</div>
   <button v-if="oggettoNellaLista()" @click="rimuoviDallaLista()">rimuovi</button>
-  <button v-else @click="aggiungiAllaLista()">aggiungi</button>
+  <button v-else @click="aggiungiOggetto(selectedItem)">aggiungi</button>
   
 </template>
 
 <script>
-import { mapState } from 'vuex';
+//import { mapState } from 'vuex';
+import { mapState, mapActions } from 'pinia'
+import { useCounterStore } from '../pinia.store'
 
 export default ({
   name: "dettaglio-oggetto",
   props: ['selectedItem'],
   methods: {
-    aggiungiAllaLista() {
-      this.$store.dispatch('aggiungiOggetto',this.selectedItem)
-    },
+    ...mapActions(useCounterStore, ['aggiungiOggetto']),
     rimuoviDallaLista() {
       this.$store.dispatch('rimuoviOggetto', this.selectedItem)
     },
@@ -23,7 +23,7 @@ export default ({
     }
   },
   computed: {
-    ...mapState(['carrello'])
+    ...mapState(useCounterStore,['carrello'])
   }
 });
 </script>
