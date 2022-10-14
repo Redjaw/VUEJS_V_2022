@@ -56,8 +56,8 @@ export default {
     return {
       avatarPreview: null,
       form: {
-        name: '',
-        username: '',
+        name: import.meta.env.MODE,
+        username: import.meta.env.VITE_DAVIDE,
         email: '',
         password: '',
         avatar: ''
