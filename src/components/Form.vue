@@ -1,17 +1,23 @@
 <template>
+  <div v-davide-test></div>
   <div class="row justify-content-center">
     <div class="col-6 text-center">
-      <form @submit="register" class="card card-form" >
+      <Form @submit="register"  class="card card-form"  @invalid-submit="onInvalidSubmit">
         <h1 class="text-center">Register</h1>
 
         <div class="m-2">
 			<label class="form-label" for="name" >Full Name</label>
-			<input name="name" v-model="form.name" id="name" type="text" class="form-control" />
+			<Field name="name" v-model="form.name" id="name" type="text" class="form-control"/>
+      <ErrorMessage name="name" />
         </div>
 
         <div class="m-2">
           <label class="form-label" for="username">Username</label>
-          <input name="username" v-model="form.username" id="username" type="text" class="form-control" />
+          <Field name="username" v-model="form.username" id="username" type="text" class="form-control" rules="required" />
+          <ErrorMessage name="username" v-slot="{ message }">
+            <span v-if="message === 'required'">{{}}</span>
+            <span v-else>{{message}}</span>
+          </ErrorMessage>
         </div>
 
         <div class="m-2">
@@ -37,14 +43,15 @@
         <div class="form-actions">
           <button type="submit" class="btn btn-primary m-3">Register</button>
         </div>
-      </form>
+      </Form>
     </div>
   </div>
 </template>
 
 <script>
+
 export default {
-	name: 'form',
+  name: 'form',
   data () {
     return {
       avatarPreview: null,
@@ -58,6 +65,11 @@ export default {
     }
   },
   methods: {
+    onInvalidSubmit({ values, errors, results }) {
+      console.log(values); // current form values
+      console.log(errors); // a map of field names and their first error message
+      console.log(results); // a detailed map of field names and their validation results
+    },
     register () {
 		console.log('registrato')
     }

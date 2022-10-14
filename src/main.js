@@ -5,5 +5,5 @@ import ValidatorPlugin from '@/plugins/validatorPlugin.js'
 
 
 createApp(App)
-    .use(ValidatorPlugin)
+    .use(ValidatorPlugin, {'ciao':'mondo'})
     .mount('#app')
