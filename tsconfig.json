@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "target": "ES2022",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/**.ts",
+        "src/**/*.vue"
+    ]
+}
